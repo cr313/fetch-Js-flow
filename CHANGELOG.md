@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+## 1.0.0 (2024-04-19)
+
+
+### Bug Fixes
+
+* Have unique error messages for xhr timeouts and errors ([#1380](https://github.com/cr313/fetch-Js-flow/issues/1380)) ([59d92a9](https://github.com/cr313/fetch-Js-flow/commit/59d92a9110cd0b783949e80925f8fcb31715d3a3))
+* Headers only accepts array which have nested array of length 2 ([9fb9a0d](https://github.com/cr313/fetch-Js-flow/commit/9fb9a0ddf2cbe79d5308f8e60599a2e874dc87f6))
+* ignore not throw on invalid response headers ([e75e2ba](https://github.com/cr313/fetch-Js-flow/commit/e75e2ba25b73845ff084f2ef82b1807fd50071ad)), closes [#930](https://github.com/cr313/fetch-Js-flow/issues/930)
+* Response.error().ok === false ([#1412](https://github.com/cr313/fetch-Js-flow/issues/1412)) ([72e832a](https://github.com/cr313/fetch-Js-flow/commit/72e832a88f6d80c4105db39ec77064e20f717800))
+* when no body supplied, do not set bodyUsed to true ([5624259](https://github.com/cr313/fetch-Js-flow/commit/562425911d94d2d179a47d93b9a5a2a7ff810944))
+
 ## [3.6.20](https://github.com/JakeChampion/fetch/compare/v3.6.19...v3.6.20) (2023-12-13)
 
 
